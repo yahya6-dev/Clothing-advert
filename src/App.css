@@ -1,0 +1,1052 @@
+@media screen and  (max-width: 800px) and (orientation: portrait){
+  .Parent{
+     display:flex;
+     flex-direction:column;
+
+  }
+
+  body{
+     background-color:rgb(235,235,235);
+  }
+  .App {
+    background-image:url(assets/bg-banner.png);
+    width:100vw;
+    height:55vh;
+    background-size: cover;
+    display:flex;
+    flex-direction:row;
+
+  }
+
+
+  .banner-img{
+    width:50vw;
+    margin:0;
+  }
+
+  .container-parent{
+    display:flex;
+    flex-direction:column;
+    width:50vw;
+  }
+  .container{
+    background-color:white;
+    align-self:end;
+    margin:16px;
+    border-radius:8px;
+    box-shadow: 4px 4px 4px rgba(255,255,255,0.3), -4px -4px 4px rgba(255,255,255,0.3);
+    outline: 1px solid white;
+    display:flex;
+    flex-direction:row;
+    background-image:url(assets/heart-big.svg);
+    background-repeat:no-repeat;
+    background-position: center;
+    padding:8px;
+  }
+
+   .text-bold{
+    font-weight:bolder;
+    font-size:2rem;
+   }
+  .rectangle{
+     width:32px;
+     height:32px;
+     background-color:white;
+     position:relative;
+     top: -18px;
+     clip-path: polygon(0px 0px,0px 16px, 32px 32px);
+     left:10%;
+  }
+
+  .header-text {
+    font-size:1rem;
+    color:#232023;
+    margin-top:8px;
+    font-weight:bold;
+  }
+
+  .buy-text-header{
+    color:white;
+    font-size:1.5rem;
+    margin:16px;
+  }
+  
+  .price{
+    font-weight:bold;
+    color:#03c04a;
+    font-size:2rem;
+    background-color:#232023a0;
+    padding-left:8px;
+    padding-right:8px;
+  }
+
+  .top-up{
+    color:#232023;
+    background-color:white;
+    position:relative;
+    left:-100% ;
+    bottom:0px;
+    padding:8px;
+    font-size:1rem;
+    border-radius:8px;
+  }
+
+  .save{
+    color:#e32428;
+    font-weight:bold;
+  }
+
+  .browse-section{
+    display:flex;
+    flex-direction:row;
+    margin-top:32px;
+    width: 100%
+  }
+
+  .browse-text{
+    font-size:1.5rem;
+    margin:16px;
+    color:#232023;
+
+  }
+
+  .no-product{
+    display:flex;
+    flex-direction: column;
+    margin:16px;
+    width:calc(1rem * 9);
+  }
+
+  .number-of-product{
+    color:#232023fa;
+    font-weight:normal;
+    align-self:flex-end;
+  }
+  .label-product{
+    font-size:1rem;
+    color:#232023a0;
+    font-weight:normal;
+    align-self:flex-end;
+  }
+
+  .items-section{
+    display:flex;
+    flex-direction: column;
+    margin:8px;
+  }
+
+  .items-header-section{
+    background-image:linear-gradient(45deg,#e32428a0,#232023a0);
+    color:white;
+    font-size:1.5rem;
+    padding:8px;
+    font-weight: bold;
+    text-align:center;
+    border-radius: 8px
+  }
+
+  .item-container{
+    overflow-x:scroll;
+    display:flex;
+    flex-direction:row;
+  }
+
+  .product{
+    display:flex;
+    flex-direction: column;
+    background-color:white;
+    width:70%;
+    margin:8px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 2px #2320233f, -2px -2px 2px #2320233f;
+    border:1px solid #232023a0;
+  }
+
+  .product-header{
+    display:flex;
+    flex-direction: row;
+    width:100%;
+  }
+
+  .product-image{
+    width:5rem;
+    height:10rem;
+    margin:auto;
+    margin-top:8px;
+    margin-bottom:8px;
+  }
+
+  .save-overflow{
+    background-color:#e32428;
+    color:white;
+    border-radius:8px;
+    width:3rem;
+    font-size:1rem;
+    text-align: center;
+    margin:8px;
+    vertical-align: center;
+    height:1.2rem;
+    padding:8px;
+  }
+
+  .love-overflow{
+    padding:8px;
+    border-radius:8px;
+    width:2rem;
+    height:2rem;
+  }
+
+  .product-name{
+    color:#232023;
+    font-size:1.5rem;
+    margin:8px;
+    text-align:center;
+    font-weight: bolder;
+  }
+
+  .product-price{
+    color:#03ca4a;
+    font-size:1.5rem;
+    margin:8px;
+    font-weight:bolder;
+    text-align:center;
+    background-color:rgba(247,247,247);
+    border-radius:8px;
+    padding:8px;
+  }
+
+  .product-description{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+  }
+
+  .product-description-logo{
+    width:1rem;
+    height:2rem;
+    margin:8px;
+    align-self:center;
+  }
+
+  .product-description-label{
+    font-size:2rem;
+    color:#232023;
+    margin:8px;
+    margin-top:auto;
+    margin-bottom:auto;
+  }
+
+  .select{
+    display:flex;
+    flex-direction:column;
+    padding:8px;
+    background-color:rgb(235,235,235);
+    position:relative;
+    border-radius: 8px;
+    bottom:10px;
+  }
+
+  .select-header{
+    display:flex;
+    flex-direction:row;
+    margin:8px;
+    align-items: center;
+    border-radius: 8px;
+    border: 1px solid #232023;
+  }
+
+  .product-label{
+    color:#232023;
+    font-size:1.3rem;
+    margin:8px;
+    font-weight:thin;
+
+  }
+
+  .option{
+    color:#232023;
+    font-size:1rem;
+    margin:8px;
+  }
+
+  .stretch{
+    width:20px;
+    height:2px;
+    position:relative;
+    top:210px;
+    left:0%;
+    background-color:white;
+    border-radius:50%;
+  }
+
+  .chat-icon{
+    width:98px;
+    height:98px;
+    position:fixed;
+    bottom:5%;
+    left:80%;
+    cursor:select;
+    background-image:url(./assets/chat.svg);
+    background-repeat:no-repeat;
+    color:white;
+    padding:16px;
+    background-position: top left;
+  }
+
+  
+
+ .chat-icon:hover{
+  transform: scale(1.2,1.2);
+ }
+
+ .select span:hover{
+    font-weight:bolder;
+    text-decoration: underline;
+ }
+
+ .chat-icon a{
+  text-decoration:none;
+ }
+ .view-shop {
+    font-size:1.5rem;
+    color:#232023;
+    margin:16px;
+    font-weight:normal;
+
+ }
+
+ .google-text{
+  font-style:italic;
+  color:#03c04a;
+  text-decoration: underline;
+ }
+
+ footer{
+  width:100%;
+  height:30vh;
+  background-image:linear-gradient(45deg,#232023a0,#e32428a0);
+  border-top-right-radius: 16px;
+  border-top-left-radius: 16px;
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+  color:rgb(225,225,225);
+ }
+
+ footer span {
+  font-size:1.5rem;
+  font-weight:bolder;
+  color:white;
+ }
+
+ .number{
+  font-size:2rem;
+  color:#03c04a;
+ } 
+}
+
+
+@media screen and  (min-width: 400px) and (orientation: landscape){
+  .Parent{
+     display:flex;
+     flex-direction:column;
+
+  }
+
+  body{
+     width:80%;
+     background-color:rgb(235,235,235);
+  }
+
+  .App {
+    background-image:url(assets/bg-banner.png);
+    width:100vw;
+    height:100vh;
+    background-size: cover;
+    display:flex;
+    flex-direction:row;
+
+  }
+
+  .banner-img{
+    width:50vw;
+    margin:0;
+  }
+
+  .container-parent{
+    display:flex;
+    flex-direction:column;
+    width:50vw;
+  }
+  .container{
+    background-color:white;
+    align-self:end;
+    margin:16px;
+    border-radius:8px;
+    box-shadow: 4px 4px 4px rgba(255,255,255,0.3), -4px -4px 4px rgba(255,255,255,0.3);
+    outline: 1px solid white;
+    display:flex;
+    flex-direction:row;
+    background-image:url(assets/heart-big.svg);
+    background-repeat:no-repeat;
+    background-position: center;
+    padding:8px;
+  }
+
+   .text-bold{
+    font-weight:bolder;
+    font-size:2rem;
+   }
+  .rectangle{
+     width:32px;
+     height:32px;
+     background-color:white;
+     position:relative;
+     top: -18px;
+     clip-path: polygon(0px 0px,0px 16px, 32px 32px);
+     left:10%;
+  }
+
+  .header-text {
+    font-size:1rem;
+    color:#232023;
+    margin-top:8px;
+    font-weight:bold;
+  }
+
+  .buy-text-header{
+    color:white;
+    font-size:1.5rem;
+    margin:16px;
+  }
+  
+  .price{
+    font-weight:bold;
+    color:#03c04a;
+    font-size:2rem;
+    background-color:#232023a0;
+    padding-left:8px;
+    padding-right:8px;
+  }
+
+  .top-up{
+    color:#232023;
+    background-color:white;
+    position:relative;
+    left:-100% ;
+    bottom:0px;
+    padding:8px;
+    font-size:1rem;
+    border-radius:8px;
+  }
+
+  .save{
+    color:#e32428;
+    font-weight:bold;
+  }
+
+  .browse-section{
+    display:flex;
+    flex-direction:row;
+    margin-top:32px;
+    width: 100%
+  }
+
+  .browse-text{
+    font-size:1.5rem;
+    margin:16px;
+    color:#232023;
+
+  }
+
+  .no-product{
+    display:flex;
+    flex-direction: column;
+    margin:16px;
+    width:calc(1rem * 9);
+  }
+
+  .number-of-product{
+    color:#232023fa;
+    font-weight:normal;
+    align-self:flex-end;
+  }
+  .label-product{
+    font-size:1rem;
+    color:#232023a0;
+    font-weight:normal;
+    align-self:flex-end;
+  }
+
+  .items-section{
+    display:flex;
+    flex-direction: column;
+    margin:8px;
+  }
+
+  .items-header-section{
+    background-image:linear-gradient(45deg,#e32428a0,#232023a0);
+    color:white;
+    font-size:1.5rem;
+    padding:8px;
+    font-weight: bold;
+    text-align:center;
+    border-radius: 8px
+  }
+
+  .item-container{
+    overflow-x:scroll;
+    display:flex;
+    flex-direction:row;
+  }
+
+  .product{
+    display:flex;
+    flex-direction: column;
+    background-color:white;
+    width:70%;
+    margin:8px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 2px #2320233f, -2px -2px 2px #2320233f;
+    border:1px solid #232023a0;
+  }
+
+  .product-header{
+    display:flex;
+    flex-direction: row;
+    width:100%;
+  }
+
+  .product-image{
+    width:5rem;
+    height:10rem;
+    margin:auto;
+    margin-top:8px;
+    margin-bottom:8px;
+  }
+
+  .save-overflow{
+    background-color:#e32428;
+    color:white;
+    border-radius:8px;
+    width:3rem;
+    font-size:1rem;
+    text-align: center;
+    margin:8px;
+    vertical-align: center;
+    height:1.2rem;
+    padding:8px;
+  }
+
+  .love-overflow{
+    padding:8px;
+    border-radius:8px;
+    width:2rem;
+    height:2rem;
+  }
+
+  .product-name{
+    color:#232023;
+    font-size:1.5rem;
+    margin:8px;
+    text-align:center;
+    font-weight: bolder;
+  }
+
+  .product-price{
+    color:#03ca4a;
+    font-size:1.5rem;
+    margin:8px;
+    font-weight:bolder;
+    text-align:center;
+    background-color:rgba(247,247,247);
+    border-radius:8px;
+    padding:8px;
+  }
+
+  .product-description{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+  }
+
+  .product-description-logo{
+    width:1rem;
+    height:2rem;
+    margin:8px;
+    align-self:center;
+  }
+
+  .product-description-label{
+    font-size:2rem;
+    color:#232023;
+    margin:8px;
+    margin-top:auto;
+    margin-bottom:auto;
+  }
+
+  .select{
+    display:flex;
+    flex-direction:column;
+    padding:8px;
+    background-color:rgb(235,235,235);
+    position:relative;
+    border-radius: 8px;
+    bottom:10px;
+  }
+
+  .select-header{
+    display:flex;
+    flex-direction:row;
+    margin:8px;
+    align-items: center;
+    border-radius: 8px;
+    border: 1px solid #232023;
+  }
+
+  .product-label{
+    color:#232023;
+    font-size:1.3rem;
+    margin:8px;
+    font-weight:thin;
+
+  }
+
+  .option{
+    color:#232023;
+    font-size:1rem;
+    margin:8px;
+  }
+
+  .stretch{
+    width:20px;
+    height:2px;
+    position:relative;
+    top:210px;
+    left:0%;
+    background-color:white;
+    border-radius:50%;
+  }
+
+  .chat-icon{
+    width:98px;
+    height:98px;
+    position:fixed;
+    bottom:5%;
+    left:80%;
+    cursor:select;
+    background-image:url(./assets/chat.svg);
+    background-repeat:no-repeat;
+    color:white;
+    padding:16px;
+    background-position: top left;
+  }
+
+  
+
+ .chat-icon:hover{
+  transform: scale(1.2,1.2);
+ }
+
+ .select span:hover{
+    font-weight:bolder;
+    text-decoration: underline;
+ }
+
+ .chat-icon a{
+  text-decoration:none;
+ }
+ .view-shop {
+    font-size:1.5rem;
+    color:#232023;
+    margin:16px;
+    font-weight:normal;
+
+ }
+
+ .google-text{
+  font-style:italic;
+  color:#03c04a;
+  text-decoration: underline;
+ }
+
+ footer{
+  width:100%;
+  height:30vh;
+  background-image:linear-gradient(45deg,#232023a0,#e32428a0);
+  border-top-right-radius: 16px;
+  border-top-left-radius: 16px;
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+  color:rgb(225,225,225);
+ }
+
+ footer span {
+  font-size:1.5rem;
+  font-weight:bolder;
+  color:white;
+ }
+
+ .number{
+  font-size:2rem;
+  color:#03c04a;
+ } 
+}
+
+
+
+@media screen and  (min-width: 800px){
+  .Parent{
+     display:flex;
+     flex-direction:column;
+
+  }
+
+  body{
+     width:80%;
+     background-color:rgb(235,235,235);
+  }
+
+  .App {
+    background-image:url(assets/bg-banner.png);
+    width:100vw;
+    height:100vh;
+    background-size: cover;
+    display:flex;
+    flex-direction:row;
+
+  }
+
+  .banner-img{
+    width:50vw;
+    margin:0;
+  }
+
+  .container-parent{
+    display:flex;
+    flex-direction:column;
+    width:50vw;
+  }
+  .container{
+    background-color:white;
+    align-self:end;
+    margin:16px;
+    border-radius:8px;
+    box-shadow: 4px 4px 4px rgba(255,255,255,0.3), -4px -4px 4px rgba(255,255,255,0.3);
+    outline: 1px solid white;
+    display:flex;
+    flex-direction:row;
+    background-image:url(assets/heart-big.svg);
+    background-repeat:no-repeat;
+    background-position: center;
+    padding:8px;
+  }
+
+   .text-bold{
+    font-weight:bolder;
+    font-size:3rem;
+   }
+  .rectangle{
+     width:32px;
+     height:32px;
+     background-color:white;
+     position:relative;
+     top: -25px;
+     clip-path: polygon(0px 0px,0px 16px, 32px 32px);
+     left:10%;
+  }
+
+  .header-text {
+    font-size:3.5rem;
+    color:#232023;
+    margin-top:8px;
+    font-weight:bold;
+  }
+
+  .buy-text-header{
+    color:white;
+    font-size:5rem;
+    margin:16px;
+  }
+  
+  .price{
+    font-weight:bold;
+    color:#03c04a;
+    font-size:5rem;
+    background-color:#232023a0;
+    padding-left:8px;
+    padding-right:8px;
+  }
+
+  .top-up{
+    color:#232023;
+    background-color:white;
+    position:relative;
+    left:calc(16px - 100%) ;
+    bottom:0%;
+    padding:8px;
+    font-size:2.5rem;
+    border-radius:8px;
+  }
+
+  .save{
+    color:#e32428;
+    font-weight:bold;
+  }
+
+  .browse-section{
+    display:flex;
+    flex-direction:row;
+    margin-top:32px;
+    width: 100%;
+    justify-content:space-between;
+  }
+
+  .browse-text{
+    font-size:1.5rem;
+    margin:16px;
+    color:#232023;
+
+  }
+
+  .no-product{
+    display:flex;
+    flex-direction: column;
+    margin:16px;
+    width:calc(1rem * 9);
+  }
+
+  .number-of-product{
+    color:#232023fa;
+    font-weight:normal;
+    align-self:flex-end;
+  }
+  .label-product{
+    font-size:1rem;
+    color:#232023a0;
+    font-weight:normal;
+    align-self:flex-end;
+  }
+
+  .items-section{
+    display:flex;
+    flex-direction: column;
+    margin:8px;
+  }
+
+  .items-header-section{
+    background-image:linear-gradient(45deg,#e32428a0,#232023a0);
+    color:white;
+    font-size:1.5rem;
+    padding:8px;
+    font-weight: bold;
+    text-align:center;
+    border-radius: 8px
+  }
+
+  .item-container{
+    overflow-x:scroll;
+    display:flex;
+    flex-direction:row;
+  }
+
+  .product{
+    display:flex;
+    flex-direction: column;
+    background-color:white;
+    width:70%;
+    margin:8px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 2px #2320233f, -2px -2px 2px #2320233f;
+    border:1px solid #232023a0;
+  }
+
+  .product-header{
+    display:flex;
+    flex-direction: row;
+    width:100%;
+  }
+
+  .product-image{
+    width:5rem;
+    height:10rem;
+    margin:auto;
+    margin-top:8px;
+    margin-bottom:8px;
+  }
+
+  .save-overflow{
+    background-color:#e32428;
+    color:white;
+    border-radius:8px;
+    width:3rem;
+    font-size:1rem;
+    text-align: center;
+    margin:8px;
+    vertical-align: center;
+    height:1.2rem;
+    padding:8px;
+  }
+
+  .love-overflow{
+    padding:8px;
+    border-radius:8px;
+    width:2rem;
+    height:2rem;
+  }
+
+  .product-name{
+    color:#232023;
+    font-size:1.5rem;
+    margin:8px;
+    text-align:center;
+    font-weight: bolder;
+  }
+
+  .product-price{
+    color:#03ca4a;
+    font-size:1.5rem;
+    margin:8px;
+    font-weight:bolder;
+    text-align:center;
+    background-color:rgba(247,247,247);
+    border-radius:8px;
+    padding:8px;
+  }
+
+  .product-description{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+  }
+
+  .product-description-logo{
+    width:1rem;
+    height:2rem;
+    margin:8px;
+    align-self:center;
+  }
+
+  .product-description-label{
+    font-size:2rem;
+    color:#232023;
+    margin:8px;
+    margin-top:auto;
+    margin-bottom:auto;
+  }
+
+  .select{
+    display:flex;
+    flex-direction:column;
+    padding:8px;
+    background-color:rgb(235,235,235);
+    position:relative;
+    border-radius: 8px;
+    bottom:10px;
+  }
+
+  .select-header{
+    display:flex;
+    flex-direction:row;
+    margin:8px;
+    align-items: center;
+    border-radius: 8px;
+    border: 1px solid #232023;
+  }
+
+  .product-label{
+    color:#232023;
+    font-size:1.3rem;
+    margin:8px;
+    font-weight:thin;
+
+  }
+
+  .option{
+    color:#232023;
+    font-size:1rem;
+    margin:8px;
+  }
+
+  .stretch{
+    width:20px;
+    height:2px;
+    position:relative;
+    top:210px;
+    left:0%;
+    background-color:white;
+    border-radius:50%;
+  }
+
+  .chat-icon{
+    width:98px;
+    height:98px;
+    position:fixed;
+    bottom:5%;
+    left:80%;
+    cursor:select;
+    background-image:url(./assets/chat.svg);
+    background-repeat:no-repeat;
+    color:white;
+    padding:16px;
+    background-position: top left;
+  }
+
+  
+
+ .chat-icon:hover{
+  transform: scale(1.2,1.2);
+ }
+
+ .select span:hover{
+    font-weight:bolder;
+    text-decoration: underline;
+ }
+
+ .chat-icon a{
+  text-decoration:none;
+ }
+ .view-shop {
+    font-size:1.5rem;
+    color:#232023;
+    margin:16px;
+    font-weight:normal;
+
+ }
+
+ .google-text{
+  font-style:italic;
+  color:#03c04a;
+  text-decoration: underline;
+ }
+
+ footer{
+  width:100%;
+  height:30vh;
+  background-image:linear-gradient(45deg,#232023a0,#e32428a0);
+  border-top-right-radius: 16px;
+  border-top-left-radius: 16px;
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+  color:rgb(225,225,225);
+ }
+
+ footer span {
+  font-size:1.5rem;
+  font-weight:bolder;
+  color:white;
+ }
+
+ .number{
+  font-size:2rem;
+  color:#03c04a;
+ } 
+}
